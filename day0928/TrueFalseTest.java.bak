@@ -1,0 +1,20 @@
+import java.util.Scanner;
+class TrueFalseTest
+{
+	public static void main(String[] args) 
+	{
+		Scanner sc = new Scanner(System.in);
+
+		String a;
+		boolean b;
+
+		System.out.println("문자를 입력하세요==>");
+		a = sc.next();
+
+		b = String a > 4;
+
+		System.out.println(b);
+
+  
+		}
+}

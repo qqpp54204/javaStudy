@@ -1,0 +1,23 @@
+class NotDefine
+{
+	public static void main(String[] args)
+	{
+		String name;
+		name = "이건우" ;
+		System.out.println("이름은 " + name);
+
+	}
+}
+
+/*
+C:\javaStudy\day0928>javac NotDefine.java
+NotDefine.java:6: error: illegal start of expression
+                name = : "이건우" ;
+                       ^
+1 error
+
+C:\javaStudy\day0928>
+
+
+
+*/
